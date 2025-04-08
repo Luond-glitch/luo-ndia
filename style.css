@@ -381,3 +381,13 @@
         margin: 0;
         font-size: 14px;
       }
+      .fa-brands{
+        background-color: rgba(14, 214, 221, 0.699);
+        border-radius: 50%;
+        padding: 10px;
+      }
+      .fa-solid{
+        background-color: rgba(14, 214, 221, 0.699);
+        border-radius: 50%;
+        padding: 10px;
+      }
