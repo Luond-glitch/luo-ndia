@@ -219,9 +219,12 @@
                 <a href="tel:+254707029633"><i class="fa-solid fa-phone"></i></a>
             </div>
             <div class="footer-about">
-                <p>&copy; 2023 Omondi O. Sylvester. All rights reserved.</p>
+                <p>&copy; <span id="year"></span> Omondi O. Sylvester. All rights reserved.</p>
               </div>
         </div>
     </footer>
+    <script>document.addEventListener("DOMContentLoaded", () => {
+        document.getElementById("year").textContent = new Date().getFullYear();
+      });</script>
 </body>
 </html>
